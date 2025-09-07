@@ -316,7 +316,7 @@
       var loader = document.getElementById('page-loader');
       if (!loader) return;
 
-      var MIN_DISPLAY_MS = 800; // snappy minimum ~0.8s visible
+      var MIN_DISPLAY_MS = 1100; // snappy minimum ~0.8s visible
       var MAX_FAILSAFE_MS = 30000; // absolute max in case 'load' never fires
       var start = Date.now();
 
